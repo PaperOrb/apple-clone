@@ -1,0 +1,65 @@
+body, html {
+  max-width: 100%;
+}
+
+* {
+  margin: 0;
+  font-family: "Font Awesome 5 Brands";
+  padding: 0;
+}
+
+.background {
+  position: relative;
+  display: flex;
+  max-width: 1440px;
+  height: 538px;
+  margin: 0 auto;
+  background: url("/images/your_verse_hero.jpg");
+  background-size: cover;
+  background-position: 0 100%;
+}
+
+.navbar {
+  position: relative;
+  margin: 0 auto;
+  height: 36px;
+  width: 980px;
+  top: 18px;
+}
+
+.navbar > ul {
+  position: inherit;
+  display: flex;
+  height: inherit;
+  width: inherit;
+  border-radius: 4px;
+  box-shadow: rgba(0,0,0,0.3) 0 1px 2px;
+  list-style: none;
+}
+
+.navbar > ul > li {
+  position: relative;
+  flex-grow: 1;
+}
+
+.navbar > ul > li > a {
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+.navbar > ul > li > a:hover {
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.fab {
+  position: relative;
+  font-size: 24px;
+  line-height: 1em;
+  vertical-align: bottom;
+  color: #fff;
+  text-shadow: rgb(59, 59, 59) 0px -1px 0px;
+}
